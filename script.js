@@ -86,7 +86,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `https://www.google.com/search?q=${selectData}`;
+        webLink = `https://samarpeet17.github.io/KillerCoding/=${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
