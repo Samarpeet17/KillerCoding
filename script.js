@@ -1,7 +1,7 @@
 const time = document.querySelector(".time");
 
 const interval = setInterval(() => {
-  const deadline = new Date(2022 ,1, 15, 12, 00, 00);
+  const deadline = new Date(2023 ,1, 15, 12, 00, 00);
   
 
   const current = new Date();
